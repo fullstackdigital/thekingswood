@@ -22,19 +22,24 @@ const Layout = ({ children, data }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content:
+                'natural, biodynamic & organic wine, craft beer, caffeine, kitchen, the river & you',
+            },
+            {
+              name: 'keywords',
+              content:
+                'wine, natural wine, brunswick, brunswick heads, restaurant, food, lunch, dinner, beer, craft beer',
+            },
           ]}
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
+            display: 'flex',
+            justifyContent: 'center',
           }}
         >
           {children}

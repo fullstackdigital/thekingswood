@@ -1,14 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import kingswoodPoster from '../images/kingswood-poster-square.jpg'
 
 import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <img
+      style={{ maxHeight: '100vh', objectFit: 'contain' }}
+      src={kingswoodPoster}
+      alt="The Kingswood - Coming Soon"
+    />
   </Layout>
 )
 
