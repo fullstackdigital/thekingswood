@@ -1,0 +1,60 @@
+html {
+  font-size: 50%;
+}
+
+.bg-blue {
+  background-color: rgba(16, 111, 160, 0.92);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.text {
+  color: white;
+  font-weight: 300;
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
+  white-space: nowrap;
+  font-size: 1.1rem;
+}
+
+.text.text--small {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  html {
+    font-size: 90%;
+  }
+  .bg-blue {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 95%;
+  }
+  .bg-blue {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bg-blue {
+    width: 50%;
+  }
+  .text {
+    font-size: 1.2rem;
+  }
+}
