@@ -15,10 +15,10 @@ const IndexPage = () => (
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          height: '100vh',
+          minHeight: '100%',
         }}
       >
-        <div style={{ width: '70%' }}>
+        <div style={{ width: '70%', margin: '2rem' }}>
           <img
             src={kingswoodLogo}
             style={{
@@ -53,23 +53,26 @@ const IndexPage = () => (
                 <br />
                 the river & you
               </p>
-              <p className="text text--small">
+              <p className="text">
                 open from midday • tapas, lunch, dinner
                 <br />6 days a week (closed tues)
               </p>
               <p className="text text--small">
-                2/26 Mullumbimi Street • Brunswick Heads, NSW
+                <a href="https://www.google.com.au/maps/place/The+Kingswood/@-28.5395242,153.5489723,17z/data=!3m1!4b1!4m5!3m4!1s0x6b908bb174a108dd:0xa7a92541badfbf78!8m2!3d-28.5395289!4d153.551161">
+                  2/26 Mullumbimbi Street Brunswick Heads NSW 2483
+                </a>
                 <br />
-                ph 02 6685 1111
+                <a href="tel:+61-2-6685-1111">ph +61 2 6685 1111</a>
               </p>
               <p>
                 <a
                   href="https://www.instagram.com/the.kingswood/"
-                  className="text text--small"
+                  className="text"
                   style={{
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'flex-start',
+                    marginBottom: '0.5rem',
                   }}
                 >
                   <img
@@ -77,11 +80,11 @@ const IndexPage = () => (
                     style={{ width: '24px', marginRight: '0.5rem' }}
                     alt="Instagram (logo)"
                   />
-                  <span>instagram.com/the.kingswood</span>
+                  <span>the.kingswood</span>
                 </a>
                 <a
                   href="https://www.facebook.com/thekingswoodbrunswickheads/"
-                  className="text text--small"
+                  className="text"
                   style={{
                     display: 'flex',
                     alignItems: 'center',
@@ -97,7 +100,7 @@ const IndexPage = () => (
                     }}
                     alt="Facebook (logo)"
                   />
-                  <span>facebook.com/thekingswoodbrunswickheads</span>
+                  <span>thekingswoodbrunswickheads</span>
                 </a>
               </p>
             </div>
