@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import kingswoodPoster from '../images/kingswood-poster.jpg'
 import './layout.css'
 
-const Layout = ({ children, data }) => (
+const Layout = ({ displayBlock, children, data }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -91,7 +91,7 @@ const Layout = ({ children, data }) => (
         </Helmet>
         <div
           style={{
-            display: 'flex',
+            display: displayBlock ? 'block' : 'flex',
             justifyContent: 'center',
           }}
         >
@@ -103,6 +103,7 @@ const Layout = ({ children, data }) => (
 )
 
 Layout.propTypes = {
+  displayBlock: PropTypes.bool,
   children: PropTypes.node.isRequired,
 }
 

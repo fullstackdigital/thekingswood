@@ -1,5 +1,5 @@
 html {
-  font-size: 60%;
+  font-size: 70%;
 }
 
 .bg-blue {
@@ -26,23 +26,21 @@ html {
   font-size: 0.7rem;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:focus,
-a:active {
+.bg-blue a:link,
+.bg-blue a:visited,
+.bg-blue a:hover,
+.bg-blue a:focus,
+.bg-blue a:active {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
+.bg-blue a:hover {
   text-decoration: underline;
 }
 
-@media only screen and (min-width: 375px) {
-  html {
-    font-size: 70%;
-  }
+.block-when-small {
+  display: block;
 }
 
 @media only screen and (min-width: 520px) {
@@ -54,6 +52,9 @@ a:hover {
   }
   .text {
     font-weight: 300;
+  }
+  .block-when-small {
+    display: inline-block;
   }
 }
 

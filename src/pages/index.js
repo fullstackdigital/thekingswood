@@ -59,7 +59,12 @@ const IndexPage = () => (
               </p>
               <p className="text text--small">
                 <a href="https://www.google.com.au/maps/place/The+Kingswood/@-28.5395242,153.5489723,17z/data=!3m1!4b1!4m5!3m4!1s0x6b908bb174a108dd:0xa7a92541badfbf78!8m2!3d-28.5395289!4d153.551161">
-                  2/26 Mullumbimbi Street Brunswick Heads NSW 2483
+                  <span className="block-when-small">
+                    2/26 Mullumbimbi Street&nbsp;
+                  </span>
+                  <span className="block-when-small">
+                    Brunswick Heads NSW 2483
+                  </span>
                 </a>
                 <br />
                 <a href="tel:+61-2-6685-1111">ph +61 2 6685 1111</a>
