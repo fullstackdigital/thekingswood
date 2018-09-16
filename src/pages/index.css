@@ -1,5 +1,5 @@
 html {
-  font-size: 70%;
+  font-size: 60%;
 }
 
 .bg-blue {
@@ -41,6 +41,12 @@ html {
 
 .block-when-small {
   display: block;
+}
+
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 70%;
+  }
 }
 
 @media only screen and (min-width: 520px) {
