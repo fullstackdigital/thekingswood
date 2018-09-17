@@ -5,6 +5,7 @@ import instaIcon from '../images/instagram-icon.png'
 import fbIcon from '../images/fb-icon.png'
 
 const linkColor = '#404040'
+const linkStyle = { textDecoration: 'none', color: linkColor }
 
 const SignaturePage = () => (
   <Layout displayBlock={true}>
@@ -33,82 +34,98 @@ const SignaturePage = () => (
         <span>Owner / Director</span>
       </div>
       <div>
-        <a
-          style={{ textDecoration: 'none', color: 'inherit' }}
-          href="tel:+61-400-781-310"
-        >
+        <a style={linkStyle} href="tel:+61-400-781-310">
           m: 0400 781 310
         </a>
       </div>
       <div>
-        <a href="mailto:donna@thekingswood.com.au" style={{ color: linkColor }}>
+        <a style={linkStyle} href="mailto:donna@thekingswood.com.au">
           donna@thekingswood.com.au
         </a>
       </div>
 
+      <table
+        style={{
+          marginTop: '1.5em',
+        }}
+      >
+        <tbody>
+          <tr>
+            <td rowSpan={2} style={{ paddingRight: '1em' }}>
+              <img
+                src={logo}
+                style={{ width: 180, objectFit: 'contain' }}
+                alt="The Kingswood (logo)"
+              />
+            </td>
+            <td>
+              <div>
+                <a
+                  href="https://www.instagram.com/the.kingswood/"
+                  style={{
+                    ...linkStyle,
+                  }}
+                >
+                  <img
+                    src={instaIcon}
+                    style={{
+                      width: '24px',
+                      marginRight: '0.5em',
+                      verticalAlign: 'middle',
+                    }}
+                    alt="Instagram (logo)"
+                  />
+                  <span style={{ lineHeight: '24px', verticalAlign: 'middle' }}>
+                    the.kingswood
+                  </span>
+                </a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <a
+                  href="https://www.facebook.com/thekingswoodbrunswickheads/"
+                  style={{
+                    ...linkStyle,
+                  }}
+                >
+                  <img
+                    src={fbIcon}
+                    style={{
+                      width: '24px',
+                      marginRight: '0.5em',
+                      verticalAlign: 'middle',
+                    }}
+                    alt="Facebook (logo)"
+                  />
+                  <span style={{ lineHeight: '24px', verticalAlign: 'middle' }}>
+                    thekingswoodbrunswickheads
+                  </span>
+                </a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td
+              colSpan={2}
+              style={{
+                paddingTop: '0.5em',
+                borderBottom: '1px solid gray',
+              }}
+            />
+          </tr>
+        </tbody>
+      </table>
       <div
         style={{
           display: 'inline-block',
-          borderBottom: '1px solid gray',
-          margin: '0.75rem 0',
-          padding: '0.75rem 0',
+          marginTop: '1em',
         }}
       >
-        <div style={{ display: 'inline-block', marginRight: '1em' }}>
-          <img
-            src={logo}
-            style={{ width: 180, objectFit: 'contain' }}
-            alt="The Kingswood (logo)"
-          />
-        </div>
-        <div style={{ display: 'inline-block' }}>
-          <div>
-            <a
-              href="https://www.instagram.com/the.kingswood/"
-              style={{
-                color: linkColor,
-                textDecoration: 'none',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'flex-start',
-                marginBottom: '0.5rem',
-              }}
-            >
-              <img
-                src={instaIcon}
-                style={{ width: '24px', marginRight: '0.5em' }}
-                alt="Instagram (logo)"
-              />
-              <span>the.kingswood</span>
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.facebook.com/thekingswoodbrunswickheads/"
-              style={{
-                color: linkColor,
-                textDecoration: 'none',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'flex-start',
-              }}
-            >
-              <img
-                src={fbIcon}
-                style={{
-                  width: '24px',
-                  marginRight: '0.5em',
-                }}
-                alt="Facebook (logo)"
-              />
-              <span>thekingswoodbrunswickheads</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div>
         <a
-          style={{ textDecoration: 'none', color: 'inherit' }}
+          style={linkStyle}
           href="https://www.google.com.au/maps/place/The+Kingswood/@-28.5395242,153.5489723,17z/data=!3m1!4b1!4m5!3m4!1s0x6b908bb174a108dd:0xa7a92541badfbf78!8m2!3d-28.5395289!4d153.551161"
         >
           2/26 Mullumbimbi Street
@@ -121,8 +138,7 @@ const SignaturePage = () => (
         </a>
         <a
           style={{
-            textDecoration: 'none',
-            color: 'inherit',
+            ...linkStyle,
             marginLeft: '1em',
           }}
           href="tel:+61-2-6685-1111"
