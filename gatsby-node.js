@@ -36,7 +36,7 @@ exports.createPages = ({ graphql, actions }) => {
     {
       slug: 'tim',
       name: 'Tim Hingston',
-      title: 'Manager',
+      title: 'CTO',
       email: 'tim@thekingswood.com.au',
       mobileLink: '+61407123030',
       mobileDisplay: '0407 123 030',

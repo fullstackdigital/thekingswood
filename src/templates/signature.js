@@ -4,7 +4,7 @@ const linkColor = '#404040'
 const linkStyle = { textDecoration: 'none', color: linkColor }
 
 const SignaturePage = ({ pageContext, location }) => {
-  const absPrefix = location.origin || 'https://www.thekingswood.com.au'
+  const absPrefix = 'https://www.thekingswood.com.au'
   return (
     <div>
       <div
@@ -13,7 +13,6 @@ const SignaturePage = ({ pageContext, location }) => {
           fontSize: '10px',
           lineHeight: '14px',
           fontWeight: 'normal',
-          marginLeft: '1em',
         }}
       >
         <br />
@@ -31,7 +30,17 @@ const SignaturePage = ({ pageContext, location }) => {
           />
           <span>{pageContext.user.title}</span>
         </div>
-        <div>m: {pageContext.user.mobileDisplay}</div>
+        <div>
+          m:{' '}
+          <a
+            href={`tel:${pageContext.user.mobileLink}`}
+            style={{
+              ...linkStyle,
+            }}
+          >
+            {pageContext.user.mobileDisplay}
+          </a>
+        </div>
         <div>
           <a
             href={`mailto:${pageContext.user.email}`}
@@ -46,70 +55,75 @@ const SignaturePage = ({ pageContext, location }) => {
         <table
           style={{
             marginTop: '1.5em',
+            borderSpacing: 0,
           }}
         >
           <tbody>
             <tr>
               <td rowSpan={2} style={{ paddingRight: '1em' }}>
                 <img
-                  src={`${absPrefix}/img/kingswood-logo-360.png`}
-                  style={{ width: 180, height: 58 }}
+                  src={`${absPrefix}/img/kingswood-logo-340.png`}
+                  style={{ width: 170, height: 48, objectFit: 'contain' }}
                   alt="The Kingswood (logo)"
                 />
               </td>
-              <td>
-                <div>
-                  <a
-                    href="https://www.instagram.com/the.kingswood/"
+              <td style={{ minWidth: 180, paddingTop: '0.75em' }}>
+                <a
+                  href="https://www.instagram.com/the.kingswood/"
+                  style={{
+                    ...linkStyle,
+                  }}
+                >
+                  <img
+                    src={`${absPrefix}/img/instagram-icon.png`}
                     style={{
-                      ...linkStyle,
+                      width: 18,
+                      height: 18,
+                      marginRight: '0.5em',
+                      verticalAlign: 'middle',
+                    }}
+                    alt="Instagram (logo)"
+                  />
+                  <span
+                    style={{
+                      fontSize: '10px',
+                      lineHeight: '10px',
+                      verticalAlign: 'middle',
                     }}
                   >
-                    <img
-                      src={`${absPrefix}/img/instagram-icon.png`}
-                      style={{
-                        width: 24,
-                        height: 24,
-                        marginRight: '0.5em',
-                        verticalAlign: 'middle',
-                      }}
-                      alt="Instagram (logo)"
-                    />
-                    <span
-                      style={{ lineHeight: '24px', verticalAlign: 'middle' }}
-                    >
-                      the.kingswood
-                    </span>
-                  </a>
-                </div>
+                    the.kingswood
+                  </span>
+                </a>
               </td>
             </tr>
             <tr>
-              <td>
-                <div>
-                  <a
-                    href="https://www.facebook.com/thekingswoodbrunswickheads/"
+              <td style={{ minWidth: 180, paddingBottom: '0.25em' }}>
+                <a
+                  href="https://www.facebook.com/thekingswoodbrunswickheads/"
+                  style={{
+                    ...linkStyle,
+                  }}
+                >
+                  <img
+                    src={`${absPrefix}/img/fb-icon.png`}
                     style={{
-                      ...linkStyle,
+                      width: 18,
+                      height: 18,
+                      marginRight: '0.5em',
+                      verticalAlign: 'middle',
+                    }}
+                    alt="Facebook (logo)"
+                  />
+                  <span
+                    style={{
+                      fontSize: '10px',
+                      lineHeight: '10px',
+                      verticalAlign: 'middle',
                     }}
                   >
-                    <img
-                      src={`${absPrefix}/img/fb-icon.png`}
-                      style={{
-                        width: 24,
-                        height: 24,
-                        marginRight: '0.5em',
-                        verticalAlign: 'middle',
-                      }}
-                      alt="Facebook (logo)"
-                    />
-                    <span
-                      style={{ lineHeight: '24px', verticalAlign: 'middle' }}
-                    >
-                      thekingswoodbrunswickheads
-                    </span>
-                  </a>
-                </div>
+                    thekingswoodbrunswickheads
+                  </span>
+                </a>
               </td>
             </tr>
             <tr>
@@ -117,9 +131,10 @@ const SignaturePage = ({ pageContext, location }) => {
                 colSpan={2}
                 style={{
                   paddingTop: '0.5em',
-                  borderBottom: '1px solid gray',
                 }}
-              />
+              >
+                <hr style={{ margin: 0, padding: 0, background: '#808080' }} />
+              </td>
             </tr>
           </tbody>
         </table>
@@ -139,13 +154,15 @@ const SignaturePage = ({ pageContext, location }) => {
           >
             www.thekingswood.com.au
           </a>
-          <span
+          <a
+            href="tel:+61266851111"
             style={{
+              ...linkStyle,
               marginLeft: '1em',
             }}
           >
             +61 2 6685 1111
-          </span>
+          </a>
         </div>
       </div>
     </div>
