@@ -25,6 +25,7 @@ const IndexPage = () => (
               marginLeft: '-12px',
               marginBottom: '1.5rem',
               width: '100%',
+              maxWidth: 420,
             }}
             alt="The Kingswood (logo)"
           />
@@ -49,12 +50,12 @@ const IndexPage = () => (
               <p className="text">
                 natural, biodynamic & organic wines
                 <br />
-                tapas • craft beer • picnic boxes • caffeine
+                mediterranean kitchen • craft beer • caffeine
                 <br />
-                the river & you
+                picnic boxes • the river & you
               </p>
               <p className="text">
-                open from midday • tapas, lunch, dinner
+                open from midday till late • lunch thru dinner
                 <br />6 days a week (closed tues)
               </p>
               <p className="text text--small">
