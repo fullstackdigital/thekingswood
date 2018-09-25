@@ -18,7 +18,7 @@ const IndexPage = () => (
           minHeight: '100%',
         }}
       >
-        <div style={{ width: '70%', margin: '2rem' }}>
+        <div style={{ maxWidth: '75%', margin: '2rem' }}>
           <img
             src={kingswoodLogo}
             style={{
