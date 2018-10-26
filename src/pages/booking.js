@@ -3,7 +3,7 @@ import HomeLayout from '../components/HomeLayout'
 
 const BookingPage = () => (
   <HomeLayout>
-    <div style={{ position: 'relative', width: '100vw', minHeight: '460px' }}>
+    <div style={{ position: 'relative', width: '100%', minHeight: '460px' }}>
       <iframe
         title="Book Now"
         src="https://www.obee.com.au/thekingswoodbrunswickheads/"
