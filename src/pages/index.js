@@ -4,6 +4,9 @@ import HomeLayout from '../components/HomeLayout'
 import Menu from '../components/Menu'
 import Main from '../components/Main'
 import Bookings from '../components/Bookings'
+import Groups from '../components/Groups'
+import Food from '../components/Food'
+import Drinks from '../components/Drinks'
 import './index.css'
 
 const IndexPage = () => (
@@ -26,6 +29,9 @@ const IndexPage = () => (
         <Main />
       </div>
       <Bookings />
+      <Groups />
+      <Food />
+      <Drinks />
     </div>
   </HomeLayout>
 )

@@ -22,18 +22,18 @@ const Main = () => (
           paddingBottom: '20px',
         }}
       >
-        <p className="text">
+        <p className="text text--wide">
           natural, biodynamic & organic wines
           <br />
           mediterranean kitchen • craft beer • caffeine
           <br />
           picnic boxes • the river & you
         </p>
-        <p className="text">
+        <p className="text text--wide">
           open from midday till late • lunch thru dinner
           <br />6 days a week (closed tues)
         </p>
-        <p className="text">
+        <p className="text text--wide">
           <a href="https://www.google.com.au/maps/place/The+Kingswood/@-28.5395242,153.5489723,17z/data=!3m1!4b1!4m5!3m4!1s0x6b908bb174a108dd:0xa7a92541badfbf78!8m2!3d-28.5395289!4d153.551161">
             2/26 mullumbimbi street&nbsp;
             <br />
@@ -45,7 +45,7 @@ const Main = () => (
         <p>
           <a
             href="https://www.instagram.com/the.kingswood/"
-            className="text"
+            className="text text--wide"
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -62,7 +62,7 @@ const Main = () => (
           </a>
           <a
             href="https://www.facebook.com/thekingswoodbrunswickheads/"
-            className="text"
+            className="text text--wide"
             style={{
               display: 'flex',
               alignItems: 'center',

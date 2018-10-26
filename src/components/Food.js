@@ -1,14 +1,14 @@
 import React from 'react'
 
-const Bookings = () => (
+const Food = () => (
   <div
-    id="bookings"
+    id="food"
     style={{
       paddingTop: '20px',
       paddingBottom: '20px',
     }}
   >
-    <h2>Bookings</h2>
+    <h2>Food</h2>
     <p className="text">
       Walk-ins welcome. Reservations can be made up to three (3) months in
       advance and up to one (1) hour prior to your desired dining time. The
@@ -31,4 +31,4 @@ const Bookings = () => (
   </div>
 )
 
-export default Bookings
+export default Food

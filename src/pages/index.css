@@ -2,6 +2,25 @@ html {
   font-size: 60%;
 }
 
+em {
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h3 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
 .bg-blue {
   background-color: rgba(16, 111, 160, 0.86);
   position: absolute;
@@ -17,8 +36,11 @@ html {
 .text {
   color: white;
   font-weight: 300;
-  letter-spacing: 0.2rem;
   font-size: 0.8rem;
+}
+
+.text.text--wide {
+  letter-spacing: 0.2rem;
 }
 
 .text.text--small {
