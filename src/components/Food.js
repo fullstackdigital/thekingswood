@@ -1,33 +1,19 @@
 import React from 'react'
 
 const Food = () => (
-  <div
-    id="food"
-    style={{
-      paddingTop: '20px',
-      paddingBottom: '20px',
-    }}
-  >
+  <div id="food" className="section">
     <h2>Food</h2>
-    <p className="text">
-      Walk-ins welcome. Reservations can be made up to three (3) months in
-      advance and up to one (1) hour prior to your desired dining time. The
-      Kingswood accepts <em>online bookings</em> for groups of up to seven (7).
-      For larger group bookings (eight (8) or more) or to enquire about a
-      private event{' '}
-      <a href="#groups" style={{ fontWeight: '400' }}>
-        click here.
-      </a>
-    </p>
-    <p className="text">
-      We are open seven (7) days (closed Tuesdays). Our menus are different for
-      Lunch (12PM - 4PM) &nbsp;&amp; Dinner (4PM - close).
-    </p>
-    <p className="text">
-      Reservations are allocated 2 hours to dine but we will endeavour to
-      accommodate longer bookings. For larger groups we set aside 3 hours. Later
-      dinner reservations have no time constraints.
-    </p>
+    <div className="text">
+      At lunch, expect a top sambo of the day and smattering of share plates. Or
+      if you are heading to the park, grab a picnic box full of goodies on the
+      way. Dinner will offer a wider range of share plates and a creative
+      combination of happy snacks and sweet endings. The menu is energetic and
+      always changing, including plenty of options for vegetarians, vegans, and
+      gluten free diets.
+      <div className="callout">
+        <a href="#">See a recent menu ></a>
+      </div>
+    </div>
   </div>
 )
 

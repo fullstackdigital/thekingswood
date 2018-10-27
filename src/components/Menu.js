@@ -6,7 +6,7 @@ const Menu = () => (
     <a href="#bookings" className="button">
       BOOKINGS
     </a>
-    <a href="#vouchers" className="button">
+    <a href="#gifts" className="button">
       GIFT VOUCHERS
     </a>
     <a href="#food" className="button">

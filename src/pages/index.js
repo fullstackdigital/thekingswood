@@ -7,17 +7,19 @@ import Bookings from '../components/Bookings'
 import Groups from '../components/Groups'
 import Food from '../components/Food'
 import Drinks from '../components/Drinks'
+import Gifts from '../components/Gifts'
 import './index.css'
 
 const IndexPage = () => (
   <HomeLayout>
-    <div style={{ maxWidth: '75%', paddingTop: '2rem', paddingBottom: '2rem' }}>
+    <div style={{ maxWidth: '75%', paddingBottom: '2rem' }}>
       <div
         style={{
           minHeight: '100vh',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
+          alignItems: 'center',
         }}
       >
         <Menu />
@@ -29,9 +31,10 @@ const IndexPage = () => (
         <Main />
       </div>
       <Bookings />
-      <Groups />
       <Food />
       <Drinks />
+      <Gifts />
+      <Groups />
     </div>
   </HomeLayout>
 )
