@@ -25,7 +25,16 @@ const BookingPage = () => (
           minHeight: '460px',
         }}
       >
-        <iframe
+        <div
+          className="obee-widget"
+          data-obee-url="thekingswoodbrunswickheads"
+          data-obee-widget-type="booking"
+          data-obee-min-height="450"
+          data-obee-add-height="50"
+          data-obee-scrolltop="true"
+        />
+        <script src="https://obee.com.au/common/js/dynamic/iframe.js" />
+        {/* <iframe
           title="Book Online"
           frameBorder="0"
           src="https://www.obee.com.au/thekingswoodbrunswickheads/"
@@ -34,7 +43,7 @@ const BookingPage = () => (
             minHeight: 450,
             backgroundColor: 'white',
           }}
-        />
+        /> */}
       </div>
     </div>
   </HomeLayout>
