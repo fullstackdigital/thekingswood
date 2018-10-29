@@ -4,18 +4,14 @@ const Groups = () => (
   <div id="groups" className="section">
     <h2>Larger Groups & Private Events</h2>
     <p className="text">
-      Group Bookings are welcome for parties of 8 or more - please call{' '}
-      <a href="tel:+61-2-6685-1111" style={{ whiteSpace: 'nowrap' }}>
-        +61 2 6685 1111
-      </a>{' '}
-      or email{' '}
+      Group Bookings are welcome for parties of 8 or more. Please email{' '}
       <a
         href="mailto:reservations@thekingswood.com.au"
         style={{ fontWeight: '400' }}
       >
         reservations@thekingswood.com.au
       </a>{' '}
-      for details.
+      for details, and make sure to include contact information.
     </p>
     <p className="text">
       For sit-down gatherings we offer communal style dining, with shared

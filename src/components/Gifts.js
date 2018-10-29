@@ -6,8 +6,13 @@ const Gifts = () => (
     <div className="text">
       Know someone who would enjoy our little spot in Brunswick Heads? Online
       gift vouchers available, delivered via email.
-      <div className="callout">
-        <a href="/">Purchase a voucher ></a>
+      <div style={{ marginTop: '3rem' }}>
+        <a
+          href="https://obee.com.au/thekingswoodbrunswickheads/gift-voucher"
+          className="button button--inverse"
+        >
+          &nbsp; Buy a voucher &nbsp;
+        </a>
       </div>
     </div>
   </div>

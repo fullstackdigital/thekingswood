@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeLayout from '../components/HomeLayout'
 import kingswoodLogo from '../images/kingswood-logo-inverted.png'
+import './index.css'
 
 const BookingPage = () => (
   <HomeLayout>
@@ -14,18 +15,27 @@ const BookingPage = () => (
     </div>
     <div
       style={{
-        position: 'relative',
-        display: 'flex',
-        minWidth: '520px',
-        minHeight: '460px',
+        overflowX: 'scroll',
       }}
     >
-      <iframe
-        frameBorder="0"
-        src="https://www.obee.com.au/thekingswoodbrunswickheads/"
-        width="100%"
-        style={{ minHeight: 450, backgroundColor: 'white' }}
-      />
+      <div
+        style={{
+          display: 'flex',
+          minWidth: '520px',
+          minHeight: '460px',
+        }}
+      >
+        <iframe
+          title="Book Online"
+          frameBorder="0"
+          src="https://www.obee.com.au/thekingswoodbrunswickheads/"
+          width="100%"
+          style={{
+            minHeight: 450,
+            backgroundColor: 'white',
+          }}
+        />
+      </div>
     </div>
   </HomeLayout>
 )
