@@ -25,6 +25,7 @@ h2 {
   bottom: 0;
   z-index: 2;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .text {
@@ -64,7 +65,6 @@ h2 {
 
 .logo {
   max-width: 420px;
-  margin-left: -12px;
 }
 
 .button {
@@ -79,9 +79,21 @@ h2 {
 }
 
 a.button:hover {
-  background-color: white;
   color: rgba(16, 111, 160, 0.86);
+  background-color: white;
   text-decoration: none;
+}
+
+a.button.button--inverse {
+  color: rgba(16, 111, 160, 0.86);
+  background-color: white;
+  border: 1px solid white;
+}
+
+a.button.button--inverse:hover {
+  color: white;
+  background-color: rgba(16, 111, 160, 0.86);
+  border: 1px solid white;
 }
 
 @media only screen and (min-width: 375px) {

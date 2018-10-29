@@ -5,9 +5,9 @@ const Gifts = () => (
     <h2>Gift Vouchers</h2>
     <div className="text">
       Know someone who would enjoy our little spot in Brunswick Heads? Online
-      gift vouchers available.
+      gift vouchers available, delivered via email.
       <div className="callout">
-        <a href="#">Purchase a voucher ></a>
+        <a href="/">Purchase a voucher ></a>
       </div>
     </div>
   </div>

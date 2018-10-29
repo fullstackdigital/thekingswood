@@ -31,9 +31,9 @@ const IndexPage = () => (
         <Main />
       </div>
       <Bookings />
+      <Gifts />
       <Food />
       <Drinks />
-      <Gifts />
       <Groups />
     </div>
   </HomeLayout>
