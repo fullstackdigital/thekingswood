@@ -46,6 +46,11 @@ h2 {
   padding: 2rem 0;
 }
 
+.section .text {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
 .bg-blue a:link,
 .bg-blue a:visited,
 .bg-blue a:hover,
@@ -100,9 +105,6 @@ a.button.button--inverse:hover {
   html {
     font-size: 70%;
   }
-  .menu {
-    font-size: 60%;
-  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -111,6 +113,10 @@ a.button.button--inverse:hover {
   }
   .text {
     font-weight: 500;
+  }
+  .section .text {
+    font-size: 1.2rem;
+    font-weight: 400;
   }
 }
 
@@ -123,6 +129,9 @@ a.button.button--inverse:hover {
   }
   .block-when-small {
     display: inline-block;
+  }
+  .section .text {
+    font-size: 0.9rem;
   }
 }
 
