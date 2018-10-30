@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from './Layout'
 import kingswoodBackground from '../images/shop.jpg'
 import PropTypes from 'prop-types'
+import './HomeLayout.css'
 
 const HomeLayout = props => (
   <Layout>

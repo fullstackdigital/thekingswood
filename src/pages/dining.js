@@ -2,7 +2,6 @@ import React from 'react'
 import HomeLayout from '../components/HomeLayout'
 import Menu from '../components/Menu'
 import kingswoodLogo from '../images/kingswood-logo-inverted.png'
-import './index.css'
 
 const DiningPage = () => (
   <HomeLayout>

@@ -8,7 +8,6 @@ import Groups from '../components/Groups'
 import Food from '../components/Food'
 import Drinks from '../components/Drinks'
 import Gifts from '../components/Gifts'
-import './index.css'
 
 const IndexPage = () => (
   <HomeLayout>
