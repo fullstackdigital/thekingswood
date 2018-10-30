@@ -10,9 +10,9 @@ const Food = () => (
       combination of happy snacks and sweet endings. The menu is energetic and
       always changing, including plenty of options for vegetarians, vegans, and
       gluten free diets.
-      <div className="callout">
+      {/* <div className="callout">
         <a href="/">See a recent menu ></a>
-      </div>
+      </div> */}
     </div>
   </div>
 )

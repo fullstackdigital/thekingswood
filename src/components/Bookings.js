@@ -19,7 +19,7 @@ const Bookings = () => (
     </div>
     <div className="text">
       <div style={{ marginTop: '3rem' }}>
-        <a className="button button--inverse" href="/booking">
+        <a className="button button--inverse" href="/dining">
           Make a booking
         </a>
       </div>

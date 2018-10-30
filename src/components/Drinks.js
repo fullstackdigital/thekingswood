@@ -8,9 +8,9 @@ const Drinks = () => (
       been seeking out some of our favourite natural wines from around the world
       to pair with our menu. Also on offer will be a rotating selection of craft
       beer, as well as a handful of seasonal cocktails.
-      <div className="callout">
+      {/* <div className="callout">
         <a href="/">See a recent drinks list ></a>
-      </div>
+      </div> */}
     </div>
   </div>
 )
