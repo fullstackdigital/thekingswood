@@ -23,11 +23,15 @@ const Main = () => (
         }}
       >
         <p className="text text--wide">
-          natural, biodynamic & organic wines
+          <span className="nowrap">
+            natural, biodynamic &amp; organic wines
+          </span>
           <br />
-          mediterranean kitchen • craft beer • caffeine
+          <span className="nowrap">
+            mediterranean kitchen • craft beer • caffeine
+          </span>
           <br />
-          picnic boxes • the river & you
+          <span className="nowrap">picnic boxes • the river &amp; you</span>
         </p>
         <p className="text text--wide">
           open from midday till late • lunch thru dinner

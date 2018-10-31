@@ -2,6 +2,11 @@ html {
   font-size: 60%;
 }
 
+html,
+body {
+  overflow: hidden;
+}
+
 em {
   font-weight: 400;
   font-style: normal;
@@ -20,6 +25,7 @@ h2 {
   position: absolute;
   width: 100%;
   height: 100vh;
+  padding-bottom: 3rem;
   top: 0;
   left: 0;
   bottom: 0;
@@ -36,6 +42,10 @@ h2 {
 
 .text.text--wide {
   letter-spacing: 0.2rem;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .text.text--small {

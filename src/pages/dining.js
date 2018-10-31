@@ -31,7 +31,7 @@ const DiningPage = () => (
         <div className="section">
           <h2>Dining at The Kingswood</h2>
           <div className="text">
-            We are open seven (7) days (closed Tuesdays). Our menus are
+            We are open six (6) days a week (closed Tuesdays). Our menus are
             different for Lunch (12PM - 4PM) &amp; Dinner (4PM - close).
             Reservations are allocated 2 hours to dine but we will endeavour to
             accommodate longer bookings. For larger groups we set aside 3 hours.
@@ -55,7 +55,8 @@ const DiningPage = () => (
         <div className="section">
           <h2>Seating Areas</h2>
           <div className="text">
-            When booking you will be prompted to choose where you wish to sit.
+            When booking you will be prompted to choose where you wish to sit.<br />
+            <br />
             <ul>
               <li>
                 Dining Room: In the dining room guests are seated at standard
