@@ -24,12 +24,12 @@ const Layout = ({ displayBlock, children, data }) => (
             {
               name: 'description',
               content:
-                'natural, biodynamic & organic wine, tapas, craft beer, picnic boxes, caffeine, kitchen, the river & you',
+                'natural, biodynamic & organic wine, mediterranean kitchen, craft beer, picnic boxes, caffeine, the river & you',
             },
             {
               name: 'keywords',
               content:
-                'wine, natural wine, brunswick, brunswick heads, restaurant, tapas, food, lunch, dinner, beer, craft beer',
+                'wine, natural wine, brunswick, brunswick heads, restaurant, mediterranean, tapas, food, lunch, dinner, beer, craft beer',
             },
             {
               property: 'og:type',
@@ -46,7 +46,7 @@ const Layout = ({ displayBlock, children, data }) => (
             {
               property: 'og:description',
               content:
-                'natural, biodynamic & organic wine, tapas, craft beer, picnic boxes, caffeine, the river & you',
+                'natural, biodynamic & organic wine, mediterranean kitchen, craft beer, picnic boxes, caffeine, the river & you',
             },
             {
               property: 'og:image',
@@ -79,7 +79,7 @@ const Layout = ({ displayBlock, children, data }) => (
             {
               name: 'twitter:description',
               value:
-                'natural, biodynamic & organic wine, tapas, craft beer, picnic boxes, caffeine, the river & you',
+                'natural, biodynamic & organic wine, mediterranean kitchen, craft beer, picnic boxes, caffeine, the river & you',
             },
             {
               name: 'twitter:image',

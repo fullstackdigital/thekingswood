@@ -1,0 +1,8 @@
+.menu {
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 0.6rem;
+  letter-spacing: 0.2rem;
+  white-space: nowrap;
+}
