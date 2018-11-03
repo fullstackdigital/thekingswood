@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from './Layout'
-import kingswoodBackground from '../images/shop.jpg'
+import kingswoodDoor from '../images/shop-door.jpg'
+import kingswoodWindows from '../images/shop-windows.jpg'
 import PropTypes from 'prop-types'
 import './HomeLayout.css'
 
@@ -19,15 +20,18 @@ const HomeLayout = props => (
         {props.children}
       </div>
     </div>
-    <img
-      src={kingswoodBackground}
-      style={{
-        height: '100vh',
-        width: '100%',
-        objectFit: 'cover',
-      }}
-      alt="The Kingswood - Coming Nov 2018"
-    />
+    <div style={{ width: '100%', position: 'relative' }}>
+      <img
+        src={kingswoodWindows}
+        className="bg-img bg-img--left"
+        alt="The Kingswood - Coming Nov 2018"
+      />
+      <img
+        src={kingswoodDoor}
+        className="bg-img bg-img--right"
+        alt="The Kingswood - Coming Nov 2018"
+      />
+    </div>
   </Layout>
 )
 HomeLayout.propTypes = {
