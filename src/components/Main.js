@@ -28,7 +28,7 @@ const Main = () => (
           </span>
           <br />
           <span className="nowrap">
-            mediterranean kitchen • craft beer • caffeine
+            coastal kitchen • craft beer • caffeine
           </span>
           <br />
           <span className="nowrap">picnic boxes • the river &amp; you</span>
