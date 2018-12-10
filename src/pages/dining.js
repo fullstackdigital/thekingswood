@@ -35,7 +35,10 @@ const DiningPage = () => (
             different for Lunch (12PM - 4PM) &amp; Dinner (4PM - close).
             Reservations are allocated 2 hours to dine but we will endeavour to
             accommodate longer bookings. For larger groups we set aside 3 hours.
-            Later dinner reservations have no time constraints.
+            Later dinner reservations have no time constraints. <br />
+            Note that online bookings must be made at least 2 hours ahead -
+            apologies if we can't get to the phone during a busy service, please
+            feel encouraged to walk-in.
             <div
               style={{
                 marginTop: '3rem',
@@ -59,26 +62,24 @@ const DiningPage = () => (
             <br />
             <ul>
               <li>
-                Dining Room: In the dining room guests are seated at standard
-                height dining tables.
+                Inside / Dining Room: In the dining room guests are seated at
+                standard height dining tables or counter-height stools. If you
+                have a preference for seating, please leave a note in your
+                comments and we will try to accommodate where possible.
               </li>
               <li>
-                Bar Seating: We have eight (8) bar stools at the kitchen/bar
-                counter where guests will be side by side facing the bar and
-                kitchen. Bar stools are cushioned with back support and
+                Inside / Bar Seating: We have eight bar stools at the
+                kitchen/bar counter where guests will be side by side facing the
+                bar and kitchen. Bar stools are cushioned with back support and
                 footrests.{' '}
               </li>
               <li>
-                Front Section: Up the front we have 4 tables at kitchen counter
-                height including one outside table in our entrance way that is
-                covered. In this area guests will be seated on kitchen counter
-                height stools.
-              </li>
-              <li>
-                Footpath Dining: The footpath dining area is exposed to the
-                weather and for this reason we do not take reservations. We have
-                one (1) large communal table and five (5) round tables that seat
-                1 3 people. These tables are on a first come first serve.
+                Outside / Footpath Dining: We have one large communal table with
+                room for 12ppl and five round tables which can suit groups of 2
+                - 4. These seats are weather-permitting - in case of rain, we'll
+                do our best to re-seat you inside, however when booking the
+                outside section, please note that an inside seat cannot be
+                guaranteed.
               </li>
             </ul>
           </div>
@@ -101,7 +102,8 @@ const DiningPage = () => (
         <div className="section">
           <h2>Babies &amp; Little People</h2>
           <div className="text">
-            Little people are most welcome at The Kingswood.
+            Little people are most welcome at The Kingswood, and there are
+            several kid-friendly options on the menu ☺☺☺
           </div>
         </div>
       </div>
