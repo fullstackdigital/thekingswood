@@ -31,7 +31,7 @@ const DiningPage = () => (
         <div className="section">
           <h2>Dining at The Kingswood</h2>
           <div className="text">
-            We are open six (6) days a week (closed Tuesdays) from 3pm daily.
+            We are open from 3pm daily, six (6) days a week (closed Tuesdays).
             Reservations are allocated 2 hours to dine but we will endeavour to
             accommodate longer bookings. For larger groups we set aside 3 hours.
             Later dinner reservations have no time constraints. <br />
