@@ -31,18 +31,13 @@ const Main = () => (
             coastal kitchen • craft beer • caffeine
           </span>
           <br />
-          <span className="nowrap">picnic boxes • the river &amp; you</span>
+          <span className="nowrap">the river &amp; you</span>
         </p>
         <p className="text text--wide">
-          <span className="nowrap">open late 6 days a week (closed tues)</span>
+          <span className="nowrap">open 3pm till late 6 days a week</span>
           <br />
-          <span className="nowrap">
-            mon • weds • thurs from 4pm, dinner only
-          </span>
+          (closed tuesday)
           <br />
-          <span className="nowrap">
-            fri • sat • sun from 11am, lunch &amp; dinner
-          </span>
         </p>
         <p className="text text--wide">
           <a href="https://www.google.com.au/maps/place/The+Kingswood/@-28.5395242,153.5489723,17z/data=!3m1!4b1!4m5!3m4!1s0x6b908bb174a108dd:0xa7a92541badfbf78!8m2!3d-28.5395289!4d153.551161">

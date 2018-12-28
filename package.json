@@ -4,9 +4,8 @@
   "version": "1.0.0",
   "author": "Tim Hingston <tim@thekingswood.com.au",
   "dependencies": {
-    "gatsby": "next",
+    "gatsby": "^2.0.77",
     "gatsby-plugin-manifest": "next",
-    "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

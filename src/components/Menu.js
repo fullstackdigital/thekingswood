@@ -1,20 +1,21 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import './Menu.css'
 
 const Menu = () => (
   <div className="menu">
-    <a href="/#bookings" className="button">
+    <Link to="/#bookings" className="button">
       BOOKINGS
-    </a>
-    <a href="/#gifts" className="button">
+    </Link>
+    <Link to="/#gifts" className="button">
       GIFT VOUCHERS
-    </a>
-    <a href="/#food" className="button">
+    </Link>
+    <Link to="/#food" className="button">
       FOOD
-    </a>
-    <a href="/#drinks" className="button">
+    </Link>
+    <Link to="/#drinks" className="button">
       DRINKS
-    </a>
+    </Link>
   </div>
 )
 

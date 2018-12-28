@@ -31,8 +31,7 @@ const DiningPage = () => (
         <div className="section">
           <h2>Dining at The Kingswood</h2>
           <div className="text">
-            We are open six (6) days a week (closed Tuesdays). Our menus are
-            different for Lunch (12PM - 4PM) &amp; Dinner (4PM - close).
+            We are open six (6) days a week (closed Tuesdays) from 3pm daily.
             Reservations are allocated 2 hours to dine but we will endeavour to
             accommodate longer bookings. For larger groups we set aside 3 hours.
             Later dinner reservations have no time constraints. <br />
@@ -75,8 +74,8 @@ const DiningPage = () => (
               </li>
               <li>
                 Outside / Footpath Dining: We have one large communal table with
-                room for 12ppl and five round tables which can suit groups of 2
-                - 4. These seats are weather-permitting - in case of rain, we'll
+                room for 12, and five round tables which can suit groups of 2 -
+                4. These seats are weather-permitting - in case of rain, we'll
                 do our best to re-seat you inside, however when booking the
                 outside section, please note that an inside seat cannot be
                 guaranteed.
