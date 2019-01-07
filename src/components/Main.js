@@ -24,12 +24,14 @@ const Main = () => (
       >
         <p className="text text--wide">
           <span className="nowrap">
-            natural, biodynamic &amp; organic wines
+            coastal kitchen • mediterranean flavors
           </span>
           <br />
           <span className="nowrap">
-            coastal kitchen • craft beer • caffeine
+            natural & low intervention wine • craft beer
           </span>
+          <br />
+          <span className="nowrap">picnic boxes • caffeine • vinyl</span>
           <br />
           <span className="nowrap">the river &amp; you</span>
         </p>
