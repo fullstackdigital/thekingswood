@@ -36,9 +36,11 @@ const Main = () => (
           <span className="nowrap">the river &amp; you</span>
         </p>
         <p className="text text--wide">
-          <span className="nowrap">open 3pm till late 6 days a week</span>
+          <span className="nowrap">
+            open 5pm till late mon • weds • thurs • fri
+          </span>
           <br />
-          (closed tuesday)
+          <span className="nowrap">from midday sat • sun (closed tuesday)</span>
           <br />
         </p>
         <p className="text text--wide">
@@ -49,6 +51,10 @@ const Main = () => (
           </a>
           <br />
           <a href="tel:+61-2-6685-1111">ph +61 2 6685 1111</a>
+          <br />
+          <a href="mailto:hello@thekingswood.com.au">
+            hello@thekingswood.com.au
+          </a>
         </p>
         <p>
           <a
