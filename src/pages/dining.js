@@ -31,11 +31,11 @@ const DiningPage = () => (
         <div className="section">
           <h2>Dining at The Kingswood</h2>
           <div className="text">
-            We are open from 5pm till late Mon • Weds • Thurs • Fri and from
-            midday Sat • Sun (closed Tues). Reservations are allocated 2 hours
-            to dine but we will endeavour to accommodate longer bookings. For
-            larger groups we set aside 3 hours. Later dinner reservations have
-            no time constraints. <br />
+            We are open from 5pm till late Weds • Thurs • Fri and from midday
+            Sat • Sun (closed Mon &amp; Tues). Reservations are allocated 2
+            hours to dine but we will endeavour to accommodate longer bookings.
+            For larger groups we set aside 3 hours. Later dinner reservations
+            have no time constraints. <br />
             Note that online bookings must be made at least 2 hours ahead -
             apologies if we can't get to the phone during a busy service, please
             feel encouraged to walk-in.

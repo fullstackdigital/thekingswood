@@ -28,17 +28,17 @@ const Main = () => (
           </span>
           <br />
           <span className="nowrap">
-            natural & low intervention wine • craft beer
+            natural &amp; low intervention wine • craft beer
           </span>
           <br />
           <span className="nowrap">caffeine • vinyl • the river &amp; you</span>
         </p>
         <p className="text text--wide">
-          <span className="nowrap">
-            open 5pm till late mon • weds • thurs • fri
-          </span>
+          <span className="nowrap">open 5pm till late weds • thurs • fri</span>
           <br />
-          <span className="nowrap">from midday sat • sun (closed tuesday)</span>
+          <span className="nowrap">
+            from midday sat • sun (closed mon &amp; tues)
+          </span>
           <br />
         </p>
         <p className="text text--wide">
