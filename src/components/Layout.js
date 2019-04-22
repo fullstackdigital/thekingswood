@@ -24,7 +24,7 @@ const Layout = ({ displayBlock, children, data }) => (
             {
               name: 'description',
               content:
-                'natural, biodynamic & organic wine, mediterranean kitchen, craft beer, caffeine, the river & you',
+                'located in downtown brunswick heads, the kingswood is a wine bar / restaurant serving up natural, biodynamic & organic wine, coastal seafood, craft beer, and plenty of good vibes.',
             },
             {
               name: 'keywords',
@@ -41,12 +41,12 @@ const Layout = ({ displayBlock, children, data }) => (
             },
             {
               property: 'og:title',
-              content: 'The Kingswood',
+              content: 'The Kingswood Restaurant Brunswick Heads',
             },
             {
               property: 'og:description',
               content:
-                'natural, biodynamic & organic wine, mediterranean kitchen, craft beer, caffeine, the river & you',
+                'located in downtown brunswick heads, the kingswood is a wine bar / restaurant serving up natural, biodynamic & organic wine, coastal seafood, craft beer, and plenty of good vibes.',
             },
             {
               property: 'og:image',
@@ -79,7 +79,7 @@ const Layout = ({ displayBlock, children, data }) => (
             {
               name: 'twitter:description',
               value:
-                'natural, biodynamic & organic wine, mediterranean kitchen, craft beer, picnic boxes, caffeine, the river & you',
+                'located in downtown brunswick heads, the kingswood is a wine bar / restaurant serving up natural, biodynamic & organic wine, coastal seafood, craft beer, and plenty of good vibes.',
             },
             {
               name: 'twitter:image',

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'The Kingswood Brunswick Heads',
+    title: 'The Kingswood • A Restaurant in Brunswick Heads',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
