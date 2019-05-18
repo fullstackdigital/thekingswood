@@ -24,7 +24,7 @@ const Layout = ({ displayBlock, children, data }) => (
             {
               name: 'description',
               content:
-                'located in downtown brunswick heads, the kingswood is a wine bar / restaurant serving up natural, biodynamic & organic wine, coastal seafood, craft beer, and plenty of good vibes.',
+                'The Kingswood is a wine bar / restaurant in beautiful downtown Brunswick Heads, serving up Mediterranean flavours, natural & low-intervention wine, craft beer, and plenty of good vibes.',
             },
             {
               name: 'keywords',
@@ -41,12 +41,12 @@ const Layout = ({ displayBlock, children, data }) => (
             },
             {
               property: 'og:title',
-              content: 'The Kingswood Restaurant Brunswick Heads',
+              content: 'The Kingswood | Brunswick Heads',
             },
             {
               property: 'og:description',
               content:
-                'located in downtown brunswick heads, the kingswood is a wine bar / restaurant serving up natural, biodynamic & organic wine, coastal seafood, craft beer, and plenty of good vibes.',
+                'The Kingswood is a wine bar / restaurant in beautiful downtown Brunswick Heads, serving up Mediterranean flavours, natural & low-intervention wine, craft beer, and plenty of good vibes.',
             },
             {
               property: 'og:image',
@@ -74,12 +74,12 @@ const Layout = ({ displayBlock, children, data }) => (
             },
             {
               name: 'twitter:title',
-              value: 'The Kingswood',
+              value: 'The Kingswood | Brunswick Heads',
             },
             {
               name: 'twitter:description',
               value:
-                'located in downtown brunswick heads, the kingswood is a wine bar / restaurant serving up natural, biodynamic & organic wine, coastal seafood, craft beer, and plenty of good vibes.',
+                'The Kingswood is a wine bar / restaurant in beautiful downtown Brunswick Heads, serving up Mediterranean flavours, natural & low-intervention wine, craft beer, and plenty of good vibes.',
             },
             {
               name: 'twitter:image',

@@ -31,17 +31,13 @@ const DiningPage = () => (
         <div className="section">
           <h2>Dining at The Kingswood</h2>
           <div className="text">
-            We are open from 5pm till late Weds • Thurs • Fri and from midday
-            Sat • Sun (closed Mon &amp; Tues). Reservations are allocated 2
-            hours to dine but we will endeavour to accommodate longer bookings.
-            For larger groups we set aside 3 hours. Later dinner reservations
-            have no time constraints. <br />
-            Note that online bookings must be made at least 2 hours ahead -
-            apologies if we can't get to the phone during a busy service, please
-            feel encouraged to walk-in.
+            Booking for a special occasion or want to reserve a Lazy Sundaze
+            Roast? (we have been known to sell out!) Please indicate in comments
+            so we can make sure to accommodate you.
             <div
               style={{
                 marginTop: '3rem',
+                marginBottom: '3rem',
                 display: 'flex',
                 justifyContent: 'center',
               }}
@@ -53,6 +49,13 @@ const DiningPage = () => (
                 Make a booking
               </a>
             </div>
+            Reservations are allocated 2 hours to dine but we will endeavour to
+            accommodate longer bookings. For larger groups we set aside 3 hours.
+            Later dinner reservations have no time constraints. <br />
+            <br />
+            * online bookings must be made at least 2 hours ahead - apologies if
+            we can't get to the phone during a busy service, but please feel
+            encouraged to walk-in.
           </div>
         </div>
         <div className="section">
@@ -87,9 +90,10 @@ const DiningPage = () => (
         <div className="section">
           <h2>Dietary Requirements</h2>
           <div className="text">
-            The Kingswood caters for vegetarian, vegan, gluten free, dairy free
-            and other diets. You may ring ahead{' '}
-            <a href="tel:+61-2-6685-1111">02 6685 1111</a> or email{' '}
+            The Kingswood menu caters for vegetarian, vegan, gluten-free,
+            dairy-free and other diets. If you have specific concerns, feel free
+            to ring ahead <a href="tel:+61-2-6685-1111">02 6685 1111</a> or
+            email{' '}
             <a
               href="mailto:reservations@thekingswood.com.au"
               style={{ fontWeight: '400' }}
