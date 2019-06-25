@@ -19,26 +19,32 @@ const Main = () => (
       <div
         style={{
           paddingTop: '20px',
-          paddingBottom: '20px',
+          paddingBottom: '5px',
         }}
       >
         <p className="text text--wide">
-          <span className="nowrap">
-            coastal kitchen • mediterranean flavours
-          </span>
-          <br />
-          <span className="nowrap">
-            natural &amp; low intervention wine • craft beer
-          </span>
-          <br />
-          <span className="nowrap">caffeine • vinyl • the river &amp; you</span>
+          coastal kitchen & wine bar, mediterranean flavours, natural &amp; low
+          intervention wine, cocktails, craft beer, caffeine, the river &amp;
+          you
         </p>
         <p className="text text--wide">
-          <span className="nowrap">open 5pm till late weds • thurs • fri</span>
+          <span className="nowrap">
+            wednesday: 5pm - late ... lasagna night!
+          </span>
+          <br />
+          <span className="nowrap">thursday: 5pm - late</span>
           <br />
           <span className="nowrap">
-            from midday sat • sun (closed mon &amp; tues)
+            friday: 5pm - late ... hour of happiness 5-6pm
           </span>
+          <br />
+          <span className="nowrap">saturday: 5pm - late</span>
+          <br />
+          <span className="nowrap">
+            sunday: midday - late ... 'lazy sunday' slow roast
+          </span>
+          <br />
+          <span className="nowrap">(closed mon &amp; tues)</span>
           <br />
         </p>
         <p className="text text--wide">

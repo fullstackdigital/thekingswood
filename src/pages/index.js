@@ -11,7 +11,7 @@ import Gifts from '../components/Gifts'
 
 const IndexPage = () => (
   <HomeLayout>
-    <div style={{ maxWidth: '75%', paddingBottom: '2rem' }}>
+    <div style={{ maxWidth: '70%', paddingBottom: '2rem' }}>
       <div
         style={{
           minHeight: '100vh',
