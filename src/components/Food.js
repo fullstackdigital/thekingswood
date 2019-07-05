@@ -14,7 +14,7 @@ const Food = () => (
         <a
           target="_blank"
           rel="noopener"
-          href="/menus/Kingswood_SampleMenu.pdf"
+          href="/menus/Kingswood_SampleDinnerMenu.pdf"
           style={{
             textDecoration: 'underline',
           }}
