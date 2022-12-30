@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Tim Hingston <tim@thekingswood.com.au",
   "dependencies": {
-    "gatsby": "^2.0.77",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-manifest": "^2.0.12",
     "gatsby-plugin-react-helmet": "^3.0.0-rc.1",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
